@@ -2,13 +2,12 @@
 
 ## 1. Orden de trabajo
 
-**Fecha:** ____________________  **Puesto:** ____________________  **Equipo / etiqueta:** ____________________
+**Fecha:** 16/11/26  **Puesto:** ____________________  **Equipo / etiqueta:** ____________________
 
 **Integrantes del grupo (2 o 3):**
 
-1. Nombre y apellidos: ______________________________________________
-2. Nombre y apellidos: ______________________________________________
-3. Nombre y apellidos (si procede): __________________________________
+1. Nombre y apellidos: Daniel Prades Remacho
+2. Nombre y apellidos: Caleb Martín Cepero
 
 > **Equipo A:** ordenador de prácticas utilizado para el montaje o la revisión. Puede estar averiado; no se exige que arranque.
 >
@@ -24,7 +23,7 @@
 
 **Estado al recibirlo:**
 
-- [ ] Completo
+- [x] Completo
 - [ ] Faltan piezas
 - [ ] Sucio
 - [ ] Daños visibles
@@ -37,10 +36,10 @@ ________________________________________________________________________
 
 ## 3. Seguridad y preparación · Equipo A
 
-- [ ] Equipo desconectado de la corriente y de los periféricos.
-- [ ] Botón de encendido pulsado tras desconectar.
-- [ ] Superficie despejada y piezas organizadas.
-- [ ] Estado inicial y conexiones fotografiados.
+- [x] Equipo desconectado de la corriente y de los periféricos.
+- [x] Botón de encendido pulsado tras desconectar.
+- [x] Superficie despejada y piezas organizadas.
+- [x] Estado inicial y conexiones fotografiados.
 
 **Herramientas utilizadas:** _______________________________________________
 
