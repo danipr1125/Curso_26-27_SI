@@ -17,8 +17,8 @@
 
 **Trabajo previsto:**
 
-- [ ] Desmontaje y montaje
-- [ ] Revisión / diagnóstico
+- [x] Desmontaje y montaje
+- [x] Revisión / diagnóstico
 - [ ] Otro: ___________________________________
 
 **Estado al recibirlo:**
@@ -27,6 +27,7 @@
 - [ ] Faltan piezas
 - [x] Sucio
 - [ ] Daños visibles
+
 
 
 **Síntomas conocidos, piezas ausentes o daños observados:**
@@ -60,6 +61,7 @@ Anotad lo que podáis verificar. Si no se distingue, escribid «no identificado�
 | Disipador / ventilador |Serie | |
 | Tarjetas / otros |No había | |
 
+
 ## 5. Conexiones y observaciones · Equipo A
 
 Identificad y marcad las conexiones presentes y comprobadas:
@@ -72,11 +74,10 @@ Identificad y marcad las conexiones presentes y comprobadas:
 - [x] Panel frontal
 
 **¿Hay algún cable suelto, conector dañado o conexión que no sepáis identificar?**
-Cable SATA dañado
+________________________________________________________________________
 
 **Fotografías de referencia (nombre de archivo o ubicación):**
-
-![CableSata](Imagenes/Imagen(5))
+![CableSata](Imagenes/Imagen5.jpeg)
 
 No retiréis la CPU ni el disipador sin indicación del profesor. Si se retira el disipador, consultad sobre limpieza y pasta térmica antes de volver a instalarlo.
 
@@ -86,7 +87,7 @@ Registrad únicamente lo que hayáis hecho; marcad **N/P** si no procede.
 
 | Operación | Hecho | N/P | Foto / observaciones |
 |---|:---:|:---:|---|
-| Apertura y fotos iniciales | [x] | ![TornillosQuitados](Imagenes/Imagen(2)),![TapaQuitada](Imagenes/Imagen(3)) | |
+| Apertura y fotos iniciales | [x] | ☐ |
 | Desconexión y organización de cables | [x] | ☐ | |
 | Desmontaje / montaje de memoria | [x] | ☐ | |
 | Revisión / montaje de almacenamiento | [x] | ☐ | |
