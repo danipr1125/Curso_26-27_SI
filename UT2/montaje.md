@@ -25,8 +25,9 @@
 
 - [x] Completo
 - [ ] Faltan piezas
-- [ ] Sucio
+- [x] Sucio
 - [ ] Daños visibles
+
 
 **Síntomas conocidos, piezas ausentes o daños observados:**
 
@@ -41,7 +42,7 @@ ________________________________________________________________________
 - [x] Superficie despejada y piezas organizadas.
 - [x] Estado inicial y conexiones fotografiados.
 
-**Herramientas utilizadas:** _______________________________________________
+**Herramientas utilizadas:** Destornilladores
 
 **No abráis la fuente ni forcéis piezas.** Ante daños o baterías, avisad al profesor.
 
@@ -51,34 +52,31 @@ Anotad lo que podáis verificar. Si no se distingue, escribid «no identificado�
 
 | Componente | Marca / modelo | Dato observado |
 |---|---|---|
-| Placa base | | |
-| Procesador | | |
-| RAM | | |
-| Almacenamiento | | |
-| Fuente | | |
-| Disipador / ventilador | | |
-| Tarjetas / otros | | |
+| Placa base |GA-B85M-D53H | |
+| Procesador |Intel Cebron G1840 | |
+| RAM |Crucial 2GB DDR3 | |
+| Almacenamiento |Western Digital 500GB | |
+| Fuente |Power Man 300W | |
+| Disipador / ventilador |Serie | |
+| Tarjetas / otros |No había | |
 
 ## 5. Conexiones y observaciones · Equipo A
 
 Identificad y marcad las conexiones presentes y comprobadas:
 
-- [ ] Alimentación de la placa
-- [ ] Alimentación de la CPU
-- [ ] Ventilador de la CPU
-- [ ] Datos de almacenamiento
-- [ ] Alimentación del disco
-- [ ] Panel frontal
+- [x] Alimentación de la placa
+- [x] Alimentación de la CPU
+- [x] Ventilador de la CPU
+- [x] Datos de almacenamiento
+- [x] Alimentación del disco
+- [x] Panel frontal
 
 **¿Hay algún cable suelto, conector dañado o conexión que no sepáis identificar?**
-
-________________________________________________________________________
-
-________________________________________________________________________
+Cable SATA dañado
 
 **Fotografías de referencia (nombre de archivo o ubicación):**
 
-________________________________________________________________________
+![CableSata](Imagenes/Imagen(5))
 
 No retiréis la CPU ni el disipador sin indicación del profesor. Si se retira el disipador, consultad sobre limpieza y pasta térmica antes de volver a instalarlo.
 
@@ -88,22 +86,19 @@ Registrad únicamente lo que hayáis hecho; marcad **N/P** si no procede.
 
 | Operación | Hecho | N/P | Foto / observaciones |
 |---|:---:|:---:|---|
-| Apertura y fotos iniciales | ☐ | ☐ | |
-| Desconexión y organización de cables | ☐ | ☐ | |
-| Desmontaje / montaje de memoria | ☐ | ☐ | |
-| Revisión / montaje de almacenamiento | ☐ | ☐ | |
-| CPU y disipador, si se autoriza | ☐ | ☐ | |
-| Tarjetas de expansión | ☐ | ☐ | |
-| Reconexión y orden de cables | ☐ | ☐ | |
-| Cierre y limpieza del puesto | ☐ | ☐ | |
+| Apertura y fotos iniciales | [x] | ![TornillosQuitados](Imagenes/Imagen(2)),![TapaQuitada](Imagenes/Imagen(3)) | |
+| Desconexión y organización de cables | [x] | ☐ | |
+| Desmontaje / montaje de memoria | [x] | ☐ | |
+| Revisión / montaje de almacenamiento | [x] | ☐ | |
+| CPU y disipador, si se autoriza | [x]| ☐ | |
+| Tarjetas de expansión | [x] | ☐ | |
+| Reconexión y orden de cables | [x] | ☐ | |
+| Cierre y limpieza del puesto | [x] | ☐ | |
 
 ## 7. Incidencia o reparación · Equipo A
 
 **Problema encontrado / hipótesis** (si no hay, indicadlo):
-
-________________________________________________________________________
-
-________________________________________________________________________
+No hay
 
 **Acción realizada y resultado observado:**
 
@@ -115,12 +110,12 @@ ________________________________________________________________________
 
 ## 8. Comprobación final · Equipo A
 
-- [ ] Piezas sujetas.
-- [ ] RAM encajada.
-- [ ] Cables revisados.
-- [ ] Sin tornillos sueltos.
-- [ ] Ventilador de CPU conectado.
-- [ ] Puesto recogido.
+- [x] Piezas sujetas.
+- [x] RAM encajada.
+- [x] Cables revisados.
+- [x] Sin tornillos sueltos.
+- [x] Ventilador de CPU conectado.
+- [x] Puesto recogido.
 
 **¿Encendido autorizado?** ☐ Sí  ☐ No
 
@@ -136,31 +131,24 @@ Una observación no demuestra por sí sola la causa de una avería.
 
 Utilizad vuestro propio ordenador funcional para los siguientes apartados.
 
-**Equipo:** ☐ Portátil  ☐ Sobremesa  ☐ Otro: ___________________________
+**Equipo:** [x] Portátil  ☐ Sobremesa  ☐ Otro: ___________________________
 
-**Linux:** ☐ Instalado directamente  ☐ Máquina virtual
+**Linux:** ☐ Instalado directamente  [x] Máquina virtual
 
-**Sistema operativo y versión:** __________________________________________
+**Sistema operativo y versión:** Windows 11 Home 26H2, Ubuntu 26.04.1 LTS
 
-**Si es virtual: sistema anfitrión y programa de virtualización:** ______________
+**Si es virtual: sistema anfitrión y programa de virtualización:** Windows y el programa WSL2
 
 **¿Arranca con normalidad? ¿Qué observáis desde el encendido hasta el inicio?**
 
-________________________________________________________________________
-
-________________________________________________________________________
+Si, observamos una consola de Ubuntu de color negro que muestra el usuario conectado a la VM, y en ella podemos usar distintos comandos
 
 **¿Qué es el POST y en qué se diferencia de la UEFI y del sistema operativo?**
 
-________________________________________________________________________
-
-________________________________________________________________________
+El POST comprueba que los componentes del ordenador funcionan correctamente al encenderse y la UEFI es quien realiza ese proceso configurando el hardware y permitiendo iniciar el SO.
 
 **¿Habéis accedido a la UEFI o consultado información de ella? ¿Qué dato habéis visto?**
-
-________________________________________________________________________
-
-________________________________________________________________________
+Sí, hemos visto un menú con opciones entre ella se incluye toda la información del sistema como la BIOS, procesador, número serial entre otras mas
 
 No cambiéis ajustes de UEFI sin indicación del profesor. Si no podéis acceder, indicadlo.
 
@@ -168,96 +156,76 @@ No cambiéis ajustes de UEFI sin indicación del profesor. Si no podéis acceder
 
 Ejecutad `lscpu`. Adjuntad la salida revisada o indicad si el comando falla.
 
-**Modelo / CPU presentada a Linux:** _______________________________________
+**Modelo / CPU presentada a Linux:** Intel Core 7 240H.
 
-**Arquitectura:** ____________________  **CPU lógicas visibles:** ______________
+**Arquitectura:** x86_64 (64 bits).  **CPU lógicas visibles:** 16 (CPU 0-15).
 
 **¿Qué diferencia hay entre núcleo e hilo? ¿Qué podéis concluir de la salida?**
-
-________________________________________________________________________
-
-________________________________________________________________________
+El núcleo es la unidad de procesamiento del procesador y el hilo es la unidad de ejecución que el SO puede planificar para que se ejecute la CPU, pues de que en mi caso mi procesador cuenta con 8 núcleos y 2 hilos por núcleo dando en total 16 hilos y 8 núcleos, cada 2 hilos se forma un núcleo
 
 ## 11. Linux: memoria · `free -h`
 
 Adjuntad las salidas de los comandos. Si alguno falla o no está disponible, anotadlo. Antes de entregarlas, ocultad usuarios, nombres de equipo, números de serie y UUID. En una máquina virtual pueden mostrarse recursos virtuales, no el hardware físico completo.
 
-**Memoria total:** ____________________  **Memoria disponible:** ______________
+**Memoria total:** 7.6GI  **Memoria disponible:** 6.9GI
 
 **¿Qué significa «disponible» y por qué puede diferir de «libre»?**
 
-________________________________________________________________________
-
-________________________________________________________________________
+Disponible en termino de memoria sería la RAM que Linux utiliza para ejecutar programas nuevos. Se difiere con la libre porque la disponible incluye la RAM vacía y caché que Linux puede liberar cuando sea necesario 
 
 ## 12. Linux: almacenamiento · `lsblk`
 
-**Disco identificado:** ___________________________________________________
+**Disco identificado:** Se identifican cuatro discos: sda, sdb, sdc y sdd
 
-**Partición y punto de montaje, si aparecen:** ________________________________
+**Partición y punto de montaje, si aparecen:** Las particiones no pero los punto de montaje son: 
+sdc:[SWAP] y ssd:/mnt/wslg/distro
 
 **Explicad la diferencia entre disco, partición y punto de montaje:**
 
-________________________________________________________________________
-
-________________________________________________________________________
+El disco es donde se guardan los datos, la partición es una división del disco y el punto de montaje es la carpeta desde donde Linux accede a esos datos
 
 ## 13. Linux: dispositivos · `lspci` y `lsusb`
 
-**Dispositivo 1 y función:** ________________________________________________
+Se detectan dos dispositivos
 
-**Dispositivo 2 y función:** ________________________________________________
+**Dispositivo 1 y función:** Red Hat Virtio 1.0 file system. Función: permite compartir archivos entre la máquina virtual y el sistema anfitrión.
+
+**Dispositivo 2 y función:** Red Hat Virtio 1.0 console (controlador SCSI). Función: gestiona la comunicación con dispositivos de almacenamiento virtuales.
 
 **¿Por qué podría no aparecer un componente físico o mostrarse de otra forma en una máquina virtual?**
-
-________________________________________________________________________
-
-________________________________________________________________________
+Porque el hipervisor controla el hardware de la máquina virtual y puede mostrar dispositivos virtuales en lugar de los físicos. Además, algunos componentes pueden no aparecer porque no están asignados a la máquina virtual.
 
 ## 14. Duda técnica y uso crítico de IA
 
 Podéis usar una IA de Internet. No compartáis datos personales ni información privada del centro. Sin acceso a IA, resolved la duda con una fuente técnica.
 
-**Herramienta utilizada y fecha:** __________________________________________
+**Herramienta utilizada y fecha:** ChatGPT 16/11/26
 
 **Pregunta planteada:**
 
-________________________________________________________________________
+Como podemos levantar el disipador que hay sobre la CPU(junto a una foto del disipador sobre la CPU)
 
 **Respuesta resumida y afirmación concreta que decidisteis comprobar:**
 
-________________________________________________________________________
-
-________________________________________________________________________
+Para quitarlo, hay que apagar y desconectar el ordenador, desenchufar el cable del ventilador, girar los cuatro anclajes de plástico para desbloquearlos y levantar el disipador con cuidado, sin forzarlo para evitar dañar el procesador.
 
 **Fuente técnica o prueba utilizada y resultado:** confirmada / corregida / no verificada.
 
-________________________________________________________________________
-
-________________________________________________________________________
+Confirmada:
 
 ## 15. Valoración y entrega
 
 **¿Qué paso fue más difícil y cómo lo resolvisteis?**
-
-________________________________________________________________________
-
-________________________________________________________________________
+Lo mas dificil fue conectar los cables POWER(LED/SW), HDD LED y RESET SW, debido a su pequeño tamaño y su ubicación entre el cableado, pudimos sacar por debajo de los otros cables de la fuente de alimentación para poder conectarlos en los pines aunque tenían poca visibilidad
 
 **¿Qué relación existe entre el montaje y la información de Linux? Recordad que son equipos distintos.**
-
-________________________________________________________________________
-
-________________________________________________________________________
+El montaje consiste en instalar y conectar los componentes físicos del ordenador, mientras que la información de Linux permite comprobar que esos componentes se detectan correctamente y funcionan.
 
 **¿Qué haríais de otra manera en un próximo montaje?**
-
-________________________________________________________________________
-
-________________________________________________________________________
+Observar más atentamente el estado de los cables para ver si recibe alimentación y leer más un manual o preguntar a la IA sobre el orden de montaje y desmontaje del PC
 
 Antes de entregar:
 
-- [ ] Ficha completa.
-- [ ] Fotos identificadas.
-- [ ] Salidas de Linux revisadas.
+- [x] Ficha completa.
+- [x] Fotos identificadas.
+- [x] Salidas de Linux revisadas.
