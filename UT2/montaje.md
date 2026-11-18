@@ -77,7 +77,7 @@ Identificad y marcad las conexiones presentes y comprobadas:
 ________________________________________________________________________
 
 **Fotografías de referencia (nombre de archivo o ubicación):**
-![CableSata](Imagenes/Imagen5.jpeg)
+![CableSata](/Imagenes/Imagen5.jpeg)
 
 No retiréis la CPU ni el disipador sin indicación del profesor. Si se retira el disipador, consultad sobre limpieza y pasta térmica antes de volver a instalarlo.
 
