@@ -77,7 +77,7 @@ Identificad y marcad las conexiones presentes y comprobadas:
 ________________________________________________________________________
 
 **Fotografías de referencia (nombre de archivo o ubicación):**
-![CableSata](./Imagenes/Imagen5.jpeg)
+![CableSata](Imagenes/Imagen5.jpeg)
 
 No retiréis la CPU ni el disipador sin indicación del profesor. Si se retira el disipador, consultad sobre limpieza y pasta térmica antes de volver a instalarlo.
 
@@ -87,14 +87,26 @@ Registrad únicamente lo que hayáis hecho; marcad **N/P** si no procede.
 
 | Operación | Hecho | N/P | Foto / observaciones |
 |---|:---:|:---:|---|
-| Apertura y fotos iniciales | [x] | ☐ |
-| Desconexión y organización de cables | [x] | ☐ | |
-| Desmontaje / montaje de memoria | [x] | ☐ | |
-| Revisión / montaje de almacenamiento | [x] | ☐ | |
-| CPU y disipador, si se autoriza | [x]| ☐ | |
-| Tarjetas de expansión | [x] | ☐ | |
-| Reconexión y orden de cables | [x] | ☐ | |
-| Cierre y limpieza del puesto | [x] | ☐ | |
+| Apertura y fotos iniciales | [x] |![Caja](Imagenes/Imagen(2).jpeg) | |
+|                                  |![CajaPorDentro](Imagenes/Imagen(3).jpeg)  | |
+| Desconexión y organización de cables | [x] |![Cables](Imagenes/Imagen(8).jpeg) | | 
+|                                      |     |![Fuente](Imagenes/Imagen(9).jpeg)| |
+|                                      |     |![Cables2](Imagenes/Imagen(10).jpeg)   | |
+| Desmontaje / montaje de memoria | [x] |![Memoria](Imagenes/Imagen(15).jpeg)  | |
+| Revisión / montaje de almacenamiento | [x] |![HDD](Imagenes/Imagen(11).jpeg)  | |
+|                                      |     |![HDD](Imagenes/Imagen(13).jpeg)||
+| CPU y disipador, si se autoriza | [x]| ![Cpu](Imagenes/Imagen(7).jpeg)||
+|                                 |    | ![Cpu2](Imagenes/Imagen(4).jpeg)||
+|                                 |    | ![Modelo](Imagenes/Imagen(1).jpeg)||
+|                                 |    |![PastaTermica](Imagenes/Imagen(16).jpeg)||
+|                                 |    |![Procesador](Imagenes/Imagen(14).jpeg)||
+|                                 |    |![PastaTermica2](Imagenes/Imagen(17).jpeg)||
+| Tarjetas de expansión | [x] |![Red](Imagenes/Imagen(12).jpeg)  | |
+| Reconexión y orden de cables | [x] |![MontajeCables](Imagenes/Imagen(18).jpeg)  | |
+|||![MontajeCables2](Imagenes/Imagen(19).jpeg)||
+|||![MontajeCables3](Imagenes/Imagen(20).jpeg)||
+|||![MontajeCables4](Imagenes/Imagen(21).jpeg)||
+| Cierre y limpieza del puesto | [x] |![OrdenadorCerrado](Imagenes/Imagen(6).jpeg)  | |
 
 ## 7. Incidencia o reparación · Equipo A
 
@@ -149,7 +161,7 @@ Si, observamos una consola de Ubuntu de color negro que muestra el usuario conec
 El POST comprueba que los componentes del ordenador funcionan correctamente al encenderse y la UEFI es quien realiza ese proceso configurando el hardware y permitiendo iniciar el SO.
 
 **¿Habéis accedido a la UEFI o consultado información de ella? ¿Qué dato habéis visto?**
-Sí, hemos visto un menú con opciones entre ella se incluye toda la información del sistema como la BIOS, procesador, número serial entre otras mas
+Sí, hemos visto un menú con opciones entre ella se incluye toda la información del sistema como el procesador, número serial entre otras mas
 
 No cambiéis ajustes de UEFI sin indicación del profesor. Si no podéis acceder, indicadlo.
 
@@ -157,14 +169,20 @@ No cambiéis ajustes de UEFI sin indicación del profesor. Si no podéis acceder
 
 Ejecutad `lscpu`. Adjuntad la salida revisada o indicad si el comando falla.
 
+![Lscpu1](Imagenes/sistema.png)
+![Lscpu2](Imagenes/sistema2.png)
+
 **Modelo / CPU presentada a Linux:** Intel Core 7 240H.
 
 **Arquitectura:** x86_64 (64 bits).  **CPU lógicas visibles:** 16 (CPU 0-15).
 
 **¿Qué diferencia hay entre núcleo e hilo? ¿Qué podéis concluir de la salida?**
+
 El núcleo es la unidad de procesamiento del procesador y el hilo es la unidad de ejecución que el SO puede planificar para que se ejecute la CPU, pues de que en mi caso mi procesador cuenta con 8 núcleos y 2 hilos por núcleo dando en total 16 hilos y 8 núcleos, cada 2 hilos se forma un núcleo
 
 ## 11. Linux: memoria · `free -h`
+
+![Free-h](Imagenes/freeh.png)
 
 Adjuntad las salidas de los comandos. Si alguno falla o no está disponible, anotadlo. Antes de entregarlas, ocultad usuarios, nombres de equipo, números de serie y UUID. En una máquina virtual pueden mostrarse recursos virtuales, no el hardware físico completo.
 
@@ -176,9 +194,15 @@ Disponible en termino de memoria sería la RAM que Linux utiliza para ejecutar p
 
 ## 12. Linux: almacenamiento · `lsblk`
 
-**Disco identificado:** Se identifican cuatro discos: sda, sdb, sdc y sdd
+![Lsblk](Imagenes/lsblk.png)
 
-**Partición y punto de montaje, si aparecen:** Las particiones no pero los punto de montaje son: 
+**Disco identificado:**
+
+Se identifican cuatro discos: sda, sdb, sdc y sdd
+
+**Partición y punto de montaje, si aparecen:**
+
+Las particiones no pero los punto de montaje son: 
 sdc:[SWAP] y ssd:/mnt/wslg/distro
 
 **Explicad la diferencia entre disco, partición y punto de montaje:**
@@ -187,13 +211,20 @@ El disco es donde se guardan los datos, la partición es una división del disco
 
 ## 13. Linux: dispositivos · `lspci` y `lsusb`
 
+![LspciyLsusb](Imagenes/lspci_lsusb.png)
+
 Se detectan dos dispositivos
 
-**Dispositivo 1 y función:** Red Hat Virtio 1.0 file system. Función: permite compartir archivos entre la máquina virtual y el sistema anfitrión.
+**Dispositivo 1 y función:**
 
-**Dispositivo 2 y función:** Red Hat Virtio 1.0 console (controlador SCSI). Función: gestiona la comunicación con dispositivos de almacenamiento virtuales.
+Red Hat Virtio 1.0 file system. Función: permite compartir archivos entre la máquina virtual y el sistema anfitrión.
+
+**Dispositivo 2 y función:** 
+
+Red Hat Virtio 1.0 console (controlador SCSI). Función: gestiona la comunicación con dispositivos de almacenamiento virtuales.
 
 **¿Por qué podría no aparecer un componente físico o mostrarse de otra forma en una máquina virtual?**
+
 Porque el hipervisor controla el hardware de la máquina virtual y puede mostrar dispositivos virtuales en lugar de los físicos. Además, algunos componentes pueden no aparecer porque no están asignados a la máquina virtual.
 
 ## 14. Duda técnica y uso crítico de IA
@@ -217,12 +248,15 @@ Confirmada:
 ## 15. Valoración y entrega
 
 **¿Qué paso fue más difícil y cómo lo resolvisteis?**
+
 Lo mas dificil fue conectar los cables POWER(LED/SW), HDD LED y RESET SW, debido a su pequeño tamaño y su ubicación entre el cableado, pudimos sacar por debajo de los otros cables de la fuente de alimentación para poder conectarlos en los pines aunque tenían poca visibilidad
 
 **¿Qué relación existe entre el montaje y la información de Linux? Recordad que son equipos distintos.**
+
 El montaje consiste en instalar y conectar los componentes físicos del ordenador, mientras que la información de Linux permite comprobar que esos componentes se detectan correctamente y funcionan.
 
 **¿Qué haríais de otra manera en un próximo montaje?**
+
 Observar más atentamente el estado de los cables para ver si recibe alimentación y leer más un manual o preguntar a la IA sobre el orden de montaje y desmontaje del PC
 
 Antes de entregar:
