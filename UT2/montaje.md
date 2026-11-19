@@ -77,7 +77,7 @@ Identificad y marcad las conexiones presentes y comprobadas:
 ________________________________________________________________________
 
 **Fotografías de referencia (nombre de archivo o ubicación):**
-![CableSata](Imagenes/Imagen5.jpeg)
+![CableSata](<Imagenes/Imagen5.jpeg>)
 
 No retiréis la CPU ni el disipador sin indicación del profesor. Si se retira el disipador, consultad sobre limpieza y pasta térmica antes de volver a instalarlo.
 
@@ -87,26 +87,26 @@ Registrad únicamente lo que hayáis hecho; marcad **N/P** si no procede.
 
 | Operación | Hecho | N/P | Foto / observaciones |
 |---|:---:|:---:|---|
-| Apertura y fotos iniciales | [x] |![Caja](Imagenes/Imagen(2).jpeg) | |
-|                                  |![CajaPorDentro](Imagenes/Imagen(3).jpeg)  | |
-| Desconexión y organización de cables | [x] |![Cables](Imagenes/Imagen(8).jpeg) | | 
-|                                      |     |![Fuente](Imagenes/Imagen(9).jpeg)| |
-|                                      |     |![Cables2](Imagenes/Imagen(10).jpeg)   | |
-| Desmontaje / montaje de memoria | [x] |![Memoria](Imagenes/Imagen(15).jpeg)  | |
-| Revisión / montaje de almacenamiento | [x] |![HDD](Imagenes/Imagen(11).jpeg)  | |
-|                                      |     |![HDD](Imagenes/Imagen(13).jpeg)||
-| CPU y disipador, si se autoriza | [x]| ![Cpu](Imagenes/Imagen(7).jpeg)||
-|                                 |    | ![Cpu2](Imagenes/Imagen(4).jpeg)||
-|                                 |    | ![Modelo](Imagenes/Imagen(1).jpeg)||
-|                                 |    |![PastaTermica](Imagenes/Imagen(16).jpeg)||
-|                                 |    |![Procesador](Imagenes/Imagen(14).jpeg)||
-|                                 |    |![PastaTermica2](Imagenes/Imagen(17).jpeg)||
-| Tarjetas de expansión | [x] |![Red](Imagenes/Imagen(12).jpeg)  | |
-| Reconexión y orden de cables | [x] |![MontajeCables](Imagenes/Imagen(18).jpeg)  | |
-|||![MontajeCables2](Imagenes/Imagen(19).jpeg)||
-|||![MontajeCables3](Imagenes/Imagen(20).jpeg)||
-|||![MontajeCables4](Imagenes/Imagen(21).jpeg)||
-| Cierre y limpieza del puesto | [x] |![OrdenadorCerrado](Imagenes/Imagen(6).jpeg)  | |
+| Apertura y fotos iniciales | [x] |![Caja](<Imagenes/Imagen(2).jpeg>) | |
+|                            |       |![CajaPorDentro](<Imagenes/Imagen(3).jpeg>)  | |
+| Desconexión y organización de cables | [x] |![Cables](<Imagenes/Imagen(8).jpeg>) | | 
+|                                      |     |![Fuente](<Imagenes/Imagen(9).jpeg>)| |
+|                                      |     |![Cables2](<Imagenes/Imagen(10).jpeg>)   | |
+| Desmontaje / montaje de memoria | [x] |![Memoria](<Imagenes/Imagen(15).jpeg>)  | |
+| Revisión / montaje de almacenamiento | [x] |![HDD](<Imagenes/Imagen(11).jpeg>)  | |
+|                                      |     |![HDD](<Imagenes/Imagen(13).jpeg>)||
+| CPU y disipador, si se autoriza | [x]| ![Cpu](<Imagenes/Imagen(7).jpeg>)||
+|                                 |    | ![Cpu2](<Imagenes/Imagen(4).jpeg>)||
+|                                 |    | ![Modelo](<Imagenes/Imagen(1).jpeg>)||
+|                                 |    |![PastaTermica](<Imagenes/Imagen(16).jpeg>)||
+|                                 |    |![Procesador](<Imagenes/Imagen(14).jpeg>)||
+|                                 |    |![PastaTermica2](<Imagenes/Imagen(17).jpeg>)||
+| Tarjetas de expansión | [x] |![Red](<Imagenes/Imagen(12).jpeg>)  | |
+| Reconexión y orden de cables | [x] |![MontajeCables](<Imagenes/Imagen(18).jpeg>)  | |
+|||![MontajeCables2](<Imagenes/Imagen(19).jpeg>)||
+|||![MontajeCables3](<Imagenes/Imagen(20).jpeg>)||
+|||![MontajeCables4](<Imagenes/Imagen(21).jpeg>)||
+| Cierre y limpieza del puesto | [x] |![OrdenadorCerrado](<Imagenes/Imagen(6).jpeg>)  | |
 
 ## 7. Incidencia o reparación · Equipo A
 
@@ -169,8 +169,9 @@ No cambiéis ajustes de UEFI sin indicación del profesor. Si no podéis acceder
 
 Ejecutad `lscpu`. Adjuntad la salida revisada o indicad si el comando falla.
 
-![Lscpu1](Imagenes/sistema.png)
-![Lscpu2](Imagenes/sistema2.png)
+![Lscpu1](<Imagenes/sistema.png>)
+
+![Lscpu2](<Imagenes/sistema2.png>)
 
 **Modelo / CPU presentada a Linux:** Intel Core 7 240H.
 
@@ -182,7 +183,7 @@ El núcleo es la unidad de procesamiento del procesador y el hilo es la unidad d
 
 ## 11. Linux: memoria · `free -h`
 
-![Free-h](Imagenes/freeh.png)
+![Free-h](<Imagenes/freeh.png>)
 
 Adjuntad las salidas de los comandos. Si alguno falla o no está disponible, anotadlo. Antes de entregarlas, ocultad usuarios, nombres de equipo, números de serie y UUID. En una máquina virtual pueden mostrarse recursos virtuales, no el hardware físico completo.
 
@@ -194,7 +195,7 @@ Disponible en termino de memoria sería la RAM que Linux utiliza para ejecutar p
 
 ## 12. Linux: almacenamiento · `lsblk`
 
-![Lsblk](Imagenes/lsblk.png)
+![Lsblk](<Imagenes/lsblk.png>)
 
 **Disco identificado:**
 
@@ -211,7 +212,7 @@ El disco es donde se guardan los datos, la partición es una división del disco
 
 ## 13. Linux: dispositivos · `lspci` y `lsusb`
 
-![LspciyLsusb](Imagenes/lspci_lsusb.png)
+![LspciyLsusb](<Imagenes/lspci_lsusb.png>)
 
 Se detectan dos dispositivos
 
