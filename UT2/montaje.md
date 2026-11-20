@@ -28,7 +28,7 @@
 - [x] Sucio
 - [ ] Daños visibles
 
-[<img src="Imagenes/Imagen(2).jpeg" alt="Caja" width="320">](<Imagenes/Imagen(2).jpeg>) [<img src="Imagenes/Imagen(3).jpeg" alt="CajaPorDentro" width="320">](<Imagenes/Imagen(3).jpeg>)
+![Parte trasera de la caja](Imagenes/Imagen(2).jpeg) ![Interior de la caja al abrirla](Imagenes/Imagen(3).jpeg)
 
 
 
@@ -45,7 +45,7 @@ ________________________________________________________________________
 - [x] Superficie despejada y piezas organizadas.
 - [x] Estado inicial y conexiones fotografiados.
 
-[<img src="Imagenes/Imagen(15).jpeg" alt="Memorma" width="460">](<Imagenes/Imagen(15).jpeg>)
+![Piezas colocadas sobre la mesa](Imagenes/Imagen(15).jpeg)
 
 **Herramientas utilizadas:** Destornilladores
 
@@ -57,11 +57,11 @@ Anotad lo que podáis verificar. Si no se distingue, escribid «no identificado�
 
 | Componente | Marca / modelo | Dato observado |
 |---|---|---|
-| Placa base |GA-B85M-D53H | [<img src="Imagenes/Imagen(4).jpeg" alt="Cpu2" width="185">](<Imagenes/Imagen(4).jpeg>) |
-| Procesador |Intel Cebron G1840 | [<img src="Imagenes/Imagen(14).jpeg" alt="Procesador" width="185">](<Imagenes/Imagen(14).jpeg>) |
+| Placa base |GA-B85M-D53H | ![Modelo de la placa base](Imagenes/Imagen(4).jpeg) |
+| Procesador |Intel Cebron G1840 | ![Modelo del procesador](Imagenes/Imagen(14).jpeg) |
 | RAM |Crucial 2GB DDR3 | |
-| Almacenamiento |Western Digital 500GB | [<img src="Imagenes/Imagen(13).jpeg" alt="HDD" width="185">](<Imagenes/Imagen(13).jpeg>) |
-| Fuente |Power Man 300W | [<img src="Imagenes/Imagen(9).jpeg" alt="Fuente" width="185">](<Imagenes/Imagen(9).jpeg>) |
+| Almacenamiento |Western Digital 500GB | ![Disco duro en su soporte](Imagenes/Imagen(13).jpeg) |
+| Fuente |Power Man 300W | ![Fuente de alimentación](Imagenes/Imagen(9).jpeg) |
 | Disipador / ventilador |Serie | |
 | Tarjetas / otros |No había | |
 
@@ -82,7 +82,7 @@ ________________________________________________________________________
 
 **Fotografías de referencia (nombre de archivo o ubicación):**
 
-[<img src="Imagenes/Imagen5.jpeg" alt="CableSata" width="215">](<Imagenes/Imagen5.jpeg>) [<img src="Imagenes/Imagen(10).jpeg" alt="Cables2" width="215">](<Imagenes/Imagen(10).jpeg>) [<img src="Imagenes/Imagen(12).jpeg" alt="Red" width="215">](<Imagenes/Imagen(12).jpeg>)
+![Conector SATA del disco duro](Imagenes/Imagen5.jpeg) ![Cables conectados a la placa](Imagenes/Imagen(10).jpeg) ![Cables del panel frontal](Imagenes/Imagen(12).jpeg)
 
 No retiréis la CPU ni el disipador sin indicación del profesor. Si se retira el disipador, consultad sobre limpieza y pasta térmica antes de volver a instalarlo.
 
@@ -92,14 +92,14 @@ Registrad únicamente lo que hayáis hecho; marcad **N/P** si no procede.
 
 | Operación | Hecho | N/P | Foto / observaciones |
 |---|:---:|:---:|---|
-| Apertura y fotos iniciales | [x] |  | [Foto 2](<Imagenes/Imagen(2).jpeg>) · [Foto 3](<Imagenes/Imagen(3).jpeg>) |
-| Desconexión y organización de cables | [x] |  | [<img src="Imagenes/Imagen(8).jpeg" alt="Cables" width="165">](<Imagenes/Imagen(8).jpeg>) |
-| Desmontaje / montaje de memoria | [x] |  | [Foto 15](<Imagenes/Imagen(15).jpeg>) |
-| Revisión / montaje de almacenamiento | [x] |  | [<img src="Imagenes/Imagen(11).jpeg" alt="HDD" width="165">](<Imagenes/Imagen(11).jpeg>) |
-| CPU y disipador, si se autoriza | [x] |  | [<img src="Imagenes/Imagen(1).jpeg" alt="Modelo" width="110">](<Imagenes/Imagen(1).jpeg>) [<img src="Imagenes/Imagen(16).jpeg" alt="PastaTermica2" width="110">](<Imagenes/Imagen(16).jpeg>) [<img src="Imagenes/Imagen(17).jpeg" alt="PastaTermica" width="110">](<Imagenes/Imagen(17).jpeg>) |
+| Apertura y fotos iniciales | [x] |  | [Parte trasera de la caja](Imagenes/Imagen(2).jpeg) · [Interior de la caja al abrirla](Imagenes/Imagen(3).jpeg) |
+| Desconexión y organización de cables | [x] |  | ![Cables sueltos dentro de la caja](Imagenes/Imagen(8).jpeg) |
+| Desmontaje / montaje de memoria | [x] |  | [Piezas colocadas sobre la mesa](Imagenes/Imagen(15).jpeg) |
+| Revisión / montaje de almacenamiento | [x] |  | ![Bahía del disco duro](Imagenes/Imagen(11).jpeg) |
+| CPU y disipador, si se autoriza | [x] |  | ![Disipador sobre la placa base](Imagenes/Imagen(1).jpeg) ![Procesador sin el disipador](Imagenes/Imagen(16).jpeg) ![Pasta térmica en el procesador](Imagenes/Imagen(17).jpeg) |
 | Tarjetas de expansión | [x] |  |  |
-| Reconexión y orden de cables | [x] |  | [<img src="Imagenes/Imagen(18).jpeg" alt="MontajeCables" width="110">](<Imagenes/Imagen(18).jpeg>) [<img src="Imagenes/Imagen(19).jpeg" alt="MontajeCables2" width="110">](<Imagenes/Imagen(19).jpeg>) [<img src="Imagenes/Imagen(20).jpeg" alt="MontajeCables3" width="110">](<Imagenes/Imagen(20).jpeg>) |
-| Cierre y limpieza del puesto | [x] |  | [Foto 6](<Imagenes/Imagen(6).jpeg>) |
+| Reconexión y orden de cables | [x] |  | ![Caja antes de montar la placa](Imagenes/Imagen(18).jpeg) ![Placa colocada en la caja](Imagenes/Imagen(19).jpeg) ![Cableado durante el montaje](Imagenes/Imagen(20).jpeg) |
+| Cierre y limpieza del puesto | [x] |  | [Caja cerrada](Imagenes/Imagen(6).jpeg) |
 
 ## 7. Incidencia o reparación · Equipo A
 
@@ -123,7 +123,7 @@ ________________________________________________________________________
 - [x] Ventilador de CPU conectado.
 - [x] Puesto recogido.
 
-[<img src="Imagenes/Imagen(21).jpeg" alt="MontajeCables4" width="320">](<Imagenes/Imagen(21).jpeg>) [<img src="Imagenes/Imagen(6).jpeg" alt="OrdenadorCerrado" width="320">](<Imagenes/Imagen(6).jpeg>)
+![Interior de la caja antes del cierre](Imagenes/Imagen(21).jpeg) ![Caja cerrada](Imagenes/Imagen(6).jpeg)
 
 **¿Encendido autorizado?** ☐ Sí  ☐ No
 
@@ -164,9 +164,9 @@ No cambiéis ajustes de UEFI sin indicación del profesor. Si no podéis acceder
 
 Ejecutad `lscpu`. Adjuntad la salida revisada o indicad si el comando falla.
 
-![Lscpu1](<Imagenes/sistema.png>)
+![Datos del procesador](Imagenes/sistema.png)
 
-![Lscpu2](<Imagenes/sistema2.png>)
+![Segunda parte de la salida de lscpu](Imagenes/sistema2.png)
 
 **Modelo / CPU presentada a Linux:** Intel Core 7 240H.
 
@@ -178,7 +178,7 @@ El núcleo es la unidad de procesamiento del procesador y el hilo es la unidad d
 
 ## 11. Linux: memoria · `free -h`
 
-![Free-h](<Imagenes/freeh.png>)
+![Memoria libre y disponible](Imagenes/freeh.png)
 
 Adjuntad las salidas de los comandos. Si alguno falla o no está disponible, anotadlo. Antes de entregarlas, ocultad usuarios, nombres de equipo, números de serie y UUID. En una máquina virtual pueden mostrarse recursos virtuales, no el hardware físico completo.
 
@@ -190,7 +190,7 @@ Disponible en termino de memoria sería la RAM que Linux utiliza para ejecutar p
 
 ## 12. Linux: almacenamiento · `lsblk`
 
-![Lsblk](<Imagenes/lsblk.png>)
+![Discos que reconoce Linux](Imagenes/lsblk.png)
 
 **Disco identificado:**
 
@@ -207,7 +207,7 @@ El disco es donde se guardan los datos, la partición es una división del disco
 
 ## 13. Linux: dispositivos · `lspci` y `lsusb`
 
-![LspciyLsusb](<Imagenes/lspci_lsusb.png>)
+![Salida de lspci y lsusb](Imagenes/lspci_lsusb.png)
 
 Se detectan dos dispositivos
 
@@ -233,7 +233,7 @@ Podéis usar una IA de Internet. No compartáis datos personales ni información
 
 Como podemos levantar el disipador que hay sobre la CPU(junto a una foto del disipador sobre la CPU)
 
-[<img src="Imagenes/Imagen(7).jpeg" alt="Cpu" width="420">](<Imagenes/Imagen(7).jpeg>)
+![Ventilador del procesador](Imagenes/Imagen(7).jpeg)
 
 **Respuesta resumida y afirmación concreta que decidisteis comprobar:**
 
