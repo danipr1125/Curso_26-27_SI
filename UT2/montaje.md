@@ -28,6 +28,8 @@
 - [x] Sucio
 - [ ] Daños visibles
 
+[<img src="Imagenes/Imagen(2).jpeg" alt="Caja" width="320">](<Imagenes/Imagen(2).jpeg>) [<img src="Imagenes/Imagen(3).jpeg" alt="CajaPorDentro" width="320">](<Imagenes/Imagen(3).jpeg>)
+
 
 
 **Síntomas conocidos, piezas ausentes o daños observados:**
@@ -43,6 +45,8 @@ ________________________________________________________________________
 - [x] Superficie despejada y piezas organizadas.
 - [x] Estado inicial y conexiones fotografiados.
 
+[<img src="Imagenes/Imagen(15).jpeg" alt="Memorma" width="460">](<Imagenes/Imagen(15).jpeg>)
+
 **Herramientas utilizadas:** Destornilladores
 
 **No abráis la fuente ni forcéis piezas.** Ante daños o baterías, avisad al profesor.
@@ -53,11 +57,11 @@ Anotad lo que podáis verificar. Si no se distingue, escribid «no identificado�
 
 | Componente | Marca / modelo | Dato observado |
 |---|---|---|
-| Placa base |GA-B85M-D53H | |
-| Procesador |Intel Cebron G1840 | |
+| Placa base |GA-B85M-D53H | [<img src="Imagenes/Imagen(4).jpeg" alt="Cpu2" width="185">](<Imagenes/Imagen(4).jpeg>) |
+| Procesador |Intel Cebron G1840 | [<img src="Imagenes/Imagen(14).jpeg" alt="Procesador" width="185">](<Imagenes/Imagen(14).jpeg>) |
 | RAM |Crucial 2GB DDR3 | |
-| Almacenamiento |Western Digital 500GB | |
-| Fuente |Power Man 300W | |
+| Almacenamiento |Western Digital 500GB | [<img src="Imagenes/Imagen(13).jpeg" alt="HDD" width="185">](<Imagenes/Imagen(13).jpeg>) |
+| Fuente |Power Man 300W | [<img src="Imagenes/Imagen(9).jpeg" alt="Fuente" width="185">](<Imagenes/Imagen(9).jpeg>) |
 | Disipador / ventilador |Serie | |
 | Tarjetas / otros |No había | |
 
@@ -77,7 +81,8 @@ Identificad y marcad las conexiones presentes y comprobadas:
 ________________________________________________________________________
 
 **Fotografías de referencia (nombre de archivo o ubicación):**
-![CableSata](<Imagenes/Imagen5.jpeg>)
+
+[<img src="Imagenes/Imagen5.jpeg" alt="CableSata" width="215">](<Imagenes/Imagen5.jpeg>) [<img src="Imagenes/Imagen(10).jpeg" alt="Cables2" width="215">](<Imagenes/Imagen(10).jpeg>) [<img src="Imagenes/Imagen(12).jpeg" alt="Red" width="215">](<Imagenes/Imagen(12).jpeg>)
 
 No retiréis la CPU ni el disipador sin indicación del profesor. Si se retira el disipador, consultad sobre limpieza y pasta térmica antes de volver a instalarlo.
 
@@ -87,26 +92,14 @@ Registrad únicamente lo que hayáis hecho; marcad **N/P** si no procede.
 
 | Operación | Hecho | N/P | Foto / observaciones |
 |---|:---:|:---:|---|
-| Apertura y fotos iniciales | [x] ||![Caja](<Imagenes/Imagen(2).jpeg>) |
-|                            |       ||![CajaPorDentro](<Imagenes/Imagen(3).jpeg>)  | 
-| Desconexión y organización de cables | [x] ||![Cables](<Imagenes/Imagen(8).jpeg>) | 
-|                                      |     ||![Fuente](<Imagenes/Imagen(9).jpeg>) |
-|                                      |     ||![Cables2](<Imagenes/Imagen(10).jpeg>)   | 
-| Desmontaje / montaje de memoria | [x] ||![Memorma](<Imagenes/Imagen(15).jpeg>)  | 
-| Revisión / montaje de almacenamiento | [x] ||![HDD](<Imagenes/Imagen(11).jpeg>)  | 
-|                                      |     ||![HDD](<Imagenes/Imagen(13).jpeg>)|
-| CPU y disipador, si se autoriza | [x]|| ![Cpu](<Imagenes/Imagen(7).jpeg>)|
-|                                 |    || ![Cpu2](<Imagenes/Imagen(4).jpeg>)|
-|                                 |    || ![Modelo](<Imagenes/Imagen(1).jpeg>)|
-|                                 |    ||![PastaTermica](<Imagenes/Imagen(17).jpeg>)|
-|                                 |    ||![Procesador](<Imagenes/Imagen(14).jpeg>)|
-|                                 |    ||![PastaTermica2](<Imagenes/Imagen(16).jpeg>)|
-| Tarjetas de expansión | [x] ||![Red](<Imagenes/Imagen(12).jpeg>)  | 
-| Reconexión y orden de cables | [x] ||![MontajeCables](<Imagenes/Imagen(18).jpeg>)  | 
-||||![MontajeCables2](<Imagenes/Imagen(19).jpeg>)|
-||||![MontajeCables3](<Imagenes/Imagen(20).jpeg>)|
-||||![MontajeCables4](<Imagenes/Imagen(21).jpeg>)|
-| Cierre y limpieza del puesto | [x] ||![OrdenadorCerrado](<Imagenes/Imagen(6).jpeg>)  | 
+| Apertura y fotos iniciales | [x] |  | [Foto 2](<Imagenes/Imagen(2).jpeg>) · [Foto 3](<Imagenes/Imagen(3).jpeg>) |
+| Desconexión y organización de cables | [x] |  | [<img src="Imagenes/Imagen(8).jpeg" alt="Cables" width="165">](<Imagenes/Imagen(8).jpeg>) |
+| Desmontaje / montaje de memoria | [x] |  | [Foto 15](<Imagenes/Imagen(15).jpeg>) |
+| Revisión / montaje de almacenamiento | [x] |  | [<img src="Imagenes/Imagen(11).jpeg" alt="HDD" width="165">](<Imagenes/Imagen(11).jpeg>) |
+| CPU y disipador, si se autoriza | [x] |  | [<img src="Imagenes/Imagen(1).jpeg" alt="Modelo" width="110">](<Imagenes/Imagen(1).jpeg>) [<img src="Imagenes/Imagen(16).jpeg" alt="PastaTermica2" width="110">](<Imagenes/Imagen(16).jpeg>) [<img src="Imagenes/Imagen(17).jpeg" alt="PastaTermica" width="110">](<Imagenes/Imagen(17).jpeg>) |
+| Tarjetas de expansión | [x] |  |  |
+| Reconexión y orden de cables | [x] |  | [<img src="Imagenes/Imagen(18).jpeg" alt="MontajeCables" width="110">](<Imagenes/Imagen(18).jpeg>) [<img src="Imagenes/Imagen(19).jpeg" alt="MontajeCables2" width="110">](<Imagenes/Imagen(19).jpeg>) [<img src="Imagenes/Imagen(20).jpeg" alt="MontajeCables3" width="110">](<Imagenes/Imagen(20).jpeg>) |
+| Cierre y limpieza del puesto | [x] |  | [Foto 6](<Imagenes/Imagen(6).jpeg>) |
 
 ## 7. Incidencia o reparación · Equipo A
 
@@ -129,6 +122,8 @@ ________________________________________________________________________
 - [x] Sin tornillos sueltos.
 - [x] Ventilador de CPU conectado.
 - [x] Puesto recogido.
+
+[<img src="Imagenes/Imagen(21).jpeg" alt="MontajeCables4" width="320">](<Imagenes/Imagen(21).jpeg>) [<img src="Imagenes/Imagen(6).jpeg" alt="OrdenadorCerrado" width="320">](<Imagenes/Imagen(6).jpeg>)
 
 **¿Encendido autorizado?** ☐ Sí  ☐ No
 
@@ -237,6 +232,8 @@ Podéis usar una IA de Internet. No compartáis datos personales ni información
 **Pregunta planteada:**
 
 Como podemos levantar el disipador que hay sobre la CPU(junto a una foto del disipador sobre la CPU)
+
+[<img src="Imagenes/Imagen(7).jpeg" alt="Cpu" width="420">](<Imagenes/Imagen(7).jpeg>)
 
 **Respuesta resumida y afirmación concreta que decidisteis comprobar:**
 
